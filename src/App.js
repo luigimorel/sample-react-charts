@@ -1,16 +1,16 @@
 import React from "react";
-// import Chart from "./Chart";
 import BarGraph from "./components/BarGraph";
+import LineGraph from "./components/LineGraph";
 import "./App.css";
 
 function App() {
   return (
     <div className="main">
       <div className="container">
-        <BarGraph legendPosition="top" />
-      </div>
+        <BarGraph legendPosition="right" />
 
-      {/* <Chart legendPosition="bottom" /> */}
+        <LineGraph legendPosition="bottom" />
+      </div>
     </div>
   );
 }
