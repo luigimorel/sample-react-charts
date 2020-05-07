@@ -38,15 +38,16 @@ export default class BarGraph extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="graph">
         <div className="app">
           <Bar
             data={this.state.ChartData}
             options={{
               title: {
                 display: this.props.displayTitle,
-                text: "Population of major cities in Uganda",
-                fontSize: 25,
+                text:
+                  "Poverty levels by region in Uganda by number of people per region",
+                fontSize: 16,
               },
               legend: {
                 display: this.props.displayLegend,

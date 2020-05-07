@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="main">
       <div className="container">
         <BarGraph legendPosition="top" />
       </div>
