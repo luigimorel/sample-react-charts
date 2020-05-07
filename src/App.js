@@ -1,7 +1,7 @@
 import React from "react";
 import BarGraph from "./components/BarGraph";
 import LineGraph from "./components/LineGraph";
-import BarGraphAgain from "./components/BarGraphAgain";
+import DoughnutGraph from "./components/DoughnutGraph";
 import PieChart from "./components/PieChart";
 import "./App.css";
 
@@ -16,7 +16,7 @@ function App() {
       <div className="separator"></div>
       <div className="container">
         <PieChart legendPosition="bottom" />
-        <BarGraphAgain />
+        <DoughnutGraph />
       </div>
     </div>
   );
