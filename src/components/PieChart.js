@@ -25,11 +25,11 @@ class PieChart extends Component {
     };
   }
 
-  //   static defaultProps = {
-  //     // legendPosition: "bottom",
-  //     displayLegend: true,
-  //     displayTitle: true,
-  //   };
+  static defaultProps = {
+    legendPosition: "bottom",
+    displayLegend: true,
+    displayTitle: true,
+  };
   render() {
     return (
       <div className="graph">
@@ -38,12 +38,12 @@ class PieChart extends Component {
           options={{
             title: {
               text: "Amount of money prepared by individuals in a family",
-              displayTitle: true,
+              displayTitle: this.props.displayTitle,
               fontSize: 16,
             },
             legend: {
-              display: true,
-              position: "bottom",
+              display: this.props.displayLegend,
+              position: this.props.legendPosition,
             },
           }}
         />

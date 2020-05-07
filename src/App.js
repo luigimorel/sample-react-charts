@@ -15,7 +15,7 @@ function App() {
       </div>
 
       <div className="container">
-        <PieChart />
+        <PieChart legendPosition="bottom" />
       </div>
     </div>
   );
