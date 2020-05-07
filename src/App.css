@@ -10,7 +10,7 @@ div.container {
   grid-template-columns: repeat(2, 1fr);
 }
 
-div.graph {
-
-  border-bottom: 50%;
+.separator {
+  height: 7px;
+  background-color: #fff;
 }
