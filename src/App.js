@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="main">
       <div className="container">
-        <BarGraph legendPosition="right" />
+        <BarGraph legendPosition="bottom" />
 
         <LineGraph legendPosition="bottom" />
       </div>

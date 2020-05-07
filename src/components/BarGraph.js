@@ -34,7 +34,7 @@ export default class BarGraph extends Component {
   static defaultProps = {
     displayTitle: true,
     displayLegend: true,
-    legendPosition: "right",
+    legendPosition: "bottom",
   };
   render() {
     return (
