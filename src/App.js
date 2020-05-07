@@ -3,6 +3,9 @@ import BarGraph from "./components/BarGraph";
 import LineGraph from "./components/LineGraph";
 import DoughnutGraph from "./components/DoughnutGraph";
 import PieChart from "./components/PieChart";
+import HorizontalBarr from "./components/HorizontalBar";
+import Radar from "./components/Radar";
+
 import "./App.css";
 
 function App() {
@@ -17,6 +20,11 @@ function App() {
       <div className="container">
         <PieChart legendPosition="bottom" />
         <DoughnutGraph />
+      </div>
+      <div className="separator"></div>
+      <div class="container">
+        <HorizontalBarr />
+        <Radar />
       </div>
     </div>
   );
